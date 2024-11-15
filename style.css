@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#body{
+    background-color: #f4f4fc;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin:25px;
+    padding: 20px;
+}
+
+#resume-form{
+    border: 1px solid #add;
+    background-color: #fff;
+    border-radius:8px;
+    padding:20px;
+    width: 100%;
+    max-width:600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+form label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+form input[type="type"],
+form input[type="email"],
+form input[type="tel"],
+form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+input,textarea{
+    border: 2px solid;
+    margin-top: 4px;
+    padding:10px;
+    box-sizing:border-box;
+    border-radius:4px;
+    width:90%;
+    margin-bottom: 10px;
+}
+#button{
+    width:100%;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding:10px;
+    
+}
+#resume-display{
+    max-width:800px;
+    width:100%;
+    padding:20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border:1px solid #add;
+    border-radius: 8px;
+    box-shadow:0, 4px, 8px rgba(0, 0, 0, 0.1) ;
+    outline: none;
+}    
+#resume h1.center{
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+#reume section{
+    margin-bottom: 20px;
+}
+#resume h2{
+    font-size: 1.25rem;
+    color: #444;
+    border-bottom: 2px solid #add;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+#button:hover{
+   background-color: #45a049; 
+}
+
+#resume ul{
+    list-style-position: none;
+    padding-left: 0%;
+}
+#resume ul li{
+    padding: 5px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#resume ul li[contenteditable="true"] {
+    background-color: #f9f9f9;
+    padding: 2px 5px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px dashed #add;
+}
+#shareable-link{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e7f3ff;
+    border: 1px solid #bbe1fa;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    color: #333;
+    display: none;
+}
+#shareable-link a{
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+#shareable-link a:hover{
+    text-decoration: underline;
+}
+#download-pdf{
+    background-color: #3498db;
+    color:white;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+#download-pdf:hover{
+    background-color: #2980b9;
+}
